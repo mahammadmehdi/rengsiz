@@ -1,0 +1,70 @@
+#background {
+    height: 100vh;
+    width: 100%;
+  background:   linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .navigation {
+        display: flex;
+        max-width: 80%;
+        justify-content: space-around;
+        margin: auto;
+        font-size: 20px;
+        padding-top: 2%;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: var(--bs-nav-link-font-weight);
+        gap: 100px;
+    }
+    ul{
+        display: flex;
+        gap: 40px;
+       li{
+        &:hover{
+            opacity: 0.6;
+            cursor: pointer;
+        }
+       }
+        
+        
+    }
+    
+.mainnav{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  min-height: 80vh;
+  gap: 20px;
+    flex-direction: column;
+    h1{
+        font-size: 6.5rem;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 500;
+        
+      
+        
+
+    }
+    p{
+        font-size: 1.25rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+   .btn{
+    background-color: rgb(100 161 157);
+    width: 178px;
+    height: 60px;
+    color: rgb(255 255 255);
+    border-radius: 5px;
+    border: none;
+    margin-top: 1%;
+   }
+}
+
+
+
+}
+
+

@@ -1,0 +1,117 @@
+#Bootstrap{
+   padding-top: 10rem;
+   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+   padding-left: 3rem;
+   padding-right: 3rem;
+   .write{
+width: 100%;
+text-align: center;
+    color: white;
+    letter-spacing: 0.0625em
+   }
+   .write1{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    p{
+        color: rgba(255, 255, 255, 0.5);
+    }
+   }
+}
+#shoreline{ max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+
+    .shoreline{
+           display: grid;
+           grid-template-columns: auto auto;
+           max-width: 80%;
+           align-items: center;
+           gap: 30px;
+           
+
+            .image{
+                width: 696px;
+                height: 435px;
+        
+            }
+            .shorewrite{
+                width: 348px;
+                height: 156px;
+                text-align: center;
+               p{
+                color: rgba(0, 0, 0, 0.5);
+               }
+            }
+    }
+}
+
+#mountain{
+    max-width: 100%;
+    margin-left: -1%;
+    .mountain{
+        padding-top: 4rem;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .misty{
+            width: 522px;
+            height: 372px;
+        }
+        .mistywrite{
+            width: 522px;
+            height: 372px;
+            background-color: rgb(0, 0, 0,);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+
+            p{
+                padding-right: 5rem;
+                padding-left: 5rem;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            
+        }
+    }
+
+    .mountain1{
+        // padding-top: 4rem;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .misty1{
+            width: 522px;
+            height: 372px;
+        }
+        .mistywrite1{
+            width: 522px;
+            height: 372px;
+            background-color: rgb(0, 0, 0,);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+
+            p{
+                padding-right: 5rem;
+                padding-left: 5rem;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            
+        }
+    }
+}
